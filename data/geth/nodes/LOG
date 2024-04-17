@@ -1,0 +1,39 @@
+=============== Apr 17, 2024 (MSK) ===============
+23:05:34.546980 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:05:34.557004 db@open opening
+23:05:34.567447 version@stat F·[] S·0B[] Sc·[]
+23:05:34.567447 db@janitor F·2 G·0
+23:05:34.567447 db@open done T·10.4428ms
+=============== Apr 17, 2024 (MSK) ===============
+23:06:07.122632 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:06:07.123143 version@stat F·[] S·0B[] Sc·[]
+23:06:07.123143 db@open opening
+23:06:07.123143 journal@recovery F·1
+23:06:07.125213 journal@recovery recovering @1
+23:06:07.127730 memdb@flush created L0@2 N·1 S·123B "version,v1":"version,v1"
+23:06:07.128770 version@stat F·[1] S·123B[123B] Sc·[0.25]
+23:06:07.134424 db@janitor F·3 G·0
+23:06:07.134424 db@open done T·11.2813ms
+=============== Apr 17, 2024 (MSK) ===============
+23:06:24.922002 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:06:24.922002 version@stat F·[1] S·123B[123B] Sc·[0.25]
+23:06:24.922002 db@open opening
+23:06:24.922002 journal@recovery F·1
+23:06:24.922002 journal@recovery recovering @3
+23:06:24.927613 version@stat F·[1] S·123B[123B] Sc·[0.25]
+23:06:24.927613 db@janitor F·3 G·0
+23:06:24.927613 db@open done T·5.6112ms
+23:06:32.567213 db@close closing
+23:06:32.567750 db@close done T·537.5µs
+=============== Apr 17, 2024 (MSK) ===============
+23:06:37.252506 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:06:37.252506 version@stat F·[1] S·123B[123B] Sc·[0.25]
+23:06:37.252506 db@open opening
+23:06:37.253018 journal@recovery F·1
+23:06:37.253527 journal@recovery recovering @5
+23:06:37.255955 memdb@flush created L0@7 N·66 S·1KiB "loc..seq,v28":"n:\xf2..ong,v8"
+23:06:37.257538 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+23:06:37.263204 db@janitor F·4 G·0
+23:06:37.263204 db@open done T·10.6983ms
+23:24:28.618557 db@close closing
+23:24:28.619084 db@close done T·527.2µs
